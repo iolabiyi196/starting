@@ -4,66 +4,81 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,700&amp;display=swap"
+            rel="stylesheet">
+        <link
+            href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,400i,700&amp;display=swap"
+            rel="stylesheet">
+        <link
+            href="https://fonts.googleapis.com/css?family=Poppins:400,500,700&amp;display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet" href="./styles.css">
         <title>My Website Style Guide</title>
     </head>
     <body>
-        <h1>My Website Style Guide</h1>
+        <h1 class="title">My Website Style Guide</h1>
         <div class="section">
             <h2 class="section-title">Colors</h2>
             <div class="color-section">
-                <div id="blue">
-                    <p>Cool Blue</p>
-                    <p>#2d5dcc</p>
+                <div class="color" id="blue">
+                    <p class="color-name">Cool Blue</p>
+                    <p class="color-name">#2d5dcc</p>
                 </div>
-                <div id="pink">
-                    <p>Pink</p>
-                    <p>#d957d9</p>
+                <div class="color" id="pink">
+                    <p class="color-name">Pink</p>
+                    <p class="color-name">#d957d9</p>
                 </div>
-                <div id="mint-green">
-                    <p>Mint Green</p>
-                    <p>#4fe0b0</p>
+                <div class="color" id="mint-green">
+                    <p class="color-name">Mint Green</p>
+                    <p class="color-name">#4fe0b0</p>
                 </div>
-                <div id="beige">
-                    <p>Beige</p>
-                    <p>#efd9ca</p>
+                <div class="color" id="beige">
+                    <p class="color-name">Beige</p>
+                    <p class="color-name">#efd9ca</p>
                 </div>
             </div>
         </div>
 
         <div class="section">
             <h2 class="section-title">Fonts</h2>
-            <div class="font-example">
-                <h3 class="font-title">Source Code Pro</h3>
-                <p class="example-plain">
-                    The quick brown fox jumps over the lazy dog.
-                </p>
-                <p class="example-bold">The quick brown fox jumps over the lazy
-                    dog.</p>
-                <p class="example-italic">
-                    The quick brown fox jumps over the lazy dog.
-                </p>
-            </div>
-            <div class="font-example">
-                <h3 class="font-title">Nunito Sans</h3>
-                <p class="example-plain">
-                    The quick brown fox jumps over the lazy dog.
-                </p>
-                <p class="example-bold">The quick brown fox jumps over the lazy
-                    dog.</p>
-                <p class="example-italic">
-                    The quick brown fox jumps over the lazy dog.
-                </p>
-            </div>
-            <div class="font-example">
-                <h3 class="font-title">Poppins</h3>
-                <p class="example-plain">
-                    The quick brown fox jumps over the lazy dog.
-                </p>
-                <p class="example-bold">The quick brown fox jumps over the lazy
-                    dog.</p>
-                <p class="example-italic">
-                    The quick brown fox jumps over the lazy dog.
-                </p>
+            <div class="fonts">
+                <div class="font-example">
+                    <h3 class="font-heading scp und">Source Code Pro</h3>
+                    <p class="font-example plain scp">
+                        The quick brown fox jumps over the lazy dog.
+                    </p>
+                    <p class="font-example bold scp">
+                        The quick brown fox jumps over the lazy dog.
+                    </p>
+                    <p class="font-example italic scp">
+                        The quick brown fox jumps over the lazy dog.
+                    </p>
+                </div>
+                <div class="font-example">
+                    <h3 class="font-heading nuns und">Nunito Sans</h3>
+                    <p class="font-example plain nuns">
+                        The quick brown fox jumps over the lazy dog.
+                    </p>
+                    <p class="font-example bold nuns">
+                        The quick brown fox jumps over the lazy dog.
+                    </p>
+                    <p class="font-example italic nuns">
+                        The quick brown fox jumps over the lazy dog.
+                    </p>
+                </div>
+                <div class="font-example">
+                    <h3 class="font-heading pop und">Poppins</h3>
+                    <p class="font-example plain pop">
+                        The quick brown fox jumps over the lazy dog.
+                    </p>
+                    <p class="font-example bold pop">
+                        The quick brown fox jumps over the lazy dog.
+                    </p>
+                    <p class="font-example italic pop">
+                        The quick brown fox jumps over the lazy dog.
+                    </p>
+                </div>
             </div>
         </div>
 
@@ -76,22 +91,23 @@
                     <li>Font-size: 26px</li>
                     <li>Font-family: Nunito Sans</li>
                 </ul>
-                <div id="heading-two">
-                    <h2 class="heading">Subheading</h2>
-                    <ul class="listing">
-                        <li>Font-weight: 700 (bold)</li>
-                        <li>Font-size: 26px</li>
-                        <li>Font-family: Nunito Sans</li>
-                    </ul>
-                </div>
-                <div id="heading-three">
-                    <p class="heading">P: Paragraph text</p>
-                    <ul class="listing">
-                        <li>Font-weight: 700 (bold)</li>
-                        <li>Font-size: 26px</li>
-                        <li>Font-family: Nunito Sans</li>
-                    </ul>
-                </div>
             </div>
-        </body>
-    </html>
+            <div id="heading-two">
+                <h2 class="heading">H2: Subheading</h2>
+                <ul class="listing">
+                    <li>Font-weight: 700 (bold)</li>
+                    <li>Font-size: 26px</li>
+                    <li>Font-family: Nunito Sans</li>
+                </ul>
+            </div>
+            <div id="heading-three">
+                <p class="heading">P: Paragraph text</p>
+                <ul class="listing">
+                    <li>Font-weight: 700 (bold)</li>
+                    <li>Font-size: 26px</li>
+                    <li>Font-family: Nunito Sans</li>
+                </ul>
+            </div>
+        </div>
+    </body>
+</html>
